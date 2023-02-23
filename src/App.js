@@ -8,11 +8,11 @@ import {AddTodos} from "./Mycomponents/AddTodos";
 import React, {useState, useEffect} from 'react';
 
 
-
+console.log("chnges")
 function App() { 
 
   // LocalStorage GetItem
-  //ChangesWorked
+
 let initTodo;
 if(localStorage.getItem("todos")===null){
   initTodo = []
