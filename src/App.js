@@ -12,6 +12,7 @@ import React, {useState, useEffect} from 'react';
 function App() { 
 
   // LocalStorage GetItem
+  //ChangesWorked
 let initTodo;
 if(localStorage.getItem("todos")===null){
   initTodo = []
